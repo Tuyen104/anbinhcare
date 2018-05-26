@@ -32,12 +32,32 @@
     <link rel="stylesheet" href="css/skins/default.css">
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+
 </head>
 
 <body class="one-page" data-target="#header" data-spy="scroll" data-offset="100">
     <div class="body">
         <header id="header" class="header-narrow header-transparent-sticky-deactive header-transparent-bottom-border header-flex" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 1, 'stickySetTop': '1'}">
             <div class="header-body">
+            	<div class="header-top header-top header-top-style-3 header-top-custom">
+						<div class="container">
+							<nav class="header-nav-top pull-right">
+								<ul class="nav nav-pills">
+									<li class="hidden-xs">
+										<span class="ws-nowrap"><i class="icon-location-pin icons"></i> 1234 Street Name, City Name</span>
+									</li>
+									<li class="hidden-xs">
+										<span class="ws-nowrap"><i class="icon-envelope-open icons"></i> <a class="text-decoration-none" href="mailto:mail@example.com">mail@example.com</a></span>
+									</li>
+									<li>
+										<span class="ws-nowrap"><i class="icon-call-out icons"></i></i> (800) 123-4567</span>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
                 <div class="header-container container">
                     <div class="header-row">
                         <div class="header-column">
@@ -73,6 +93,9 @@
                                                 </li>
                                                 <li>
                                                     <a data-hash data-hash-offset="70" href="#banggia">BẢNG GIÁ</a>
+                                                </li>
+                                                <li>
+                                                    <a data-hash data-hash-offset="70" href="blog.html">TIN TỨC</a>
                                                 </li>
                                                 <li>
                                                     <a data-hash data-hash-offset="70" href="#lienhe">LIÊN HỆ</a>
@@ -419,7 +442,7 @@
                 </div>
             </section>
             <!--Bảng giá dịch vụ-->
-            <div class="container">
+            <div class="container" id="banggia">
                 <div class="row">
                     <div class="col-md-12">
                         <hr class="tall mt-none">
